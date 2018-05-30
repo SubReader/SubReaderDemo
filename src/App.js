@@ -49,7 +49,6 @@ class App extends Component {
   componentWillMount() {
     this.stream$ = this.getServiceToken()
       .then(serviceToken => {
-        console.log("serviceToken", serviceToken);
         return SubReaderAPI.getStreamToken(serviceToken);
       })
       .then(({ token: streamToken, id: streamId }) => {
