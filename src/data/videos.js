@@ -8,7 +8,7 @@ export default {
     backdrop:
       "https://image.tmdb.org/t/p/original/q7fXcrDPJcf6t3rzutaNwTzuKP1.jpg",
     src:
-      "http://movietrailers.apple.com/movies/wb/real-player-one/ready-player-one-trailer-3_i320.m4v",
+      "https://static.subreader.dk/trailers/ready-player-one-trailer-3_i320.m4v",
     tracks: [
       {
         language: "da",
@@ -28,7 +28,7 @@ export default {
     poster:
       "https://image.tmdb.org/t/p/original/xmgAsda5sPNpx5ghJibJ80S7Pfx.jpg",
     src:
-      "http://movietrailers.apple.com/movies/marvel/avengers-infinity-war/avengers-infinity-war-trailer-1_a720p.m4v",
+      "https://static.subreader.dk/trailers/avengers-infinity-war-trailer-1_a720p.m4v",
     tracks: [
       {
         language: "da",
@@ -47,8 +47,7 @@ export default {
       "https://image.tmdb.org/t/p/original/fdSWl53eyOlYEcScy4omKibsuaZ.jpg",
     poster:
       "https://image.tmdb.org/t/p/original/fdSWl53eyOlYEcScy4omKibsuaZ.jpg",
-    src:
-      "http://movietrailers.apple.com/movies/fox/deadpool-2/deadpool-2-teaser-1_i320.m4v",
+    src: "https://static.subreader.dk/trailers/deadpool-2-teaser-1_i320.m4v",
     tracks: [
       {
         language: "da",
@@ -68,7 +67,7 @@ export default {
     poster:
       "https://image.tmdb.org/t/p/original/y9jGaGNn1dQDhPkhMumXaLize73.jpg",
     src:
-      "http://movietrailers.apple.com/movies/lucasfilm/solo-a-star-wars-story/solo-a-star-wars-story-teaser-1_i320.m4v",
+      "https://static.subreader.dk/trailers/solo-a-star-wars-story-teaser-1_i320.m4v",
     tracks: [
       {
         language: "da",
@@ -107,8 +106,7 @@ export default {
       "https://image.tmdb.org/t/p/original/h4XG3g6uMMPIBPjAoQhC2QIMdkl.jpg",
     backdrop:
       "https://image.tmdb.org/t/p/original/8sb4aBST28vN3rBz704XJczS0Ld.jpg",
-    src:
-      "http://movietrailers.apple.com/movies/fox/the-post/the-post-trailer-1_i320.m4v",
+    src: "https://static.subreader.dk/trailers/the-post-trailer-1_i320.m4v",
     tracks: [
       {
         language: "da",
