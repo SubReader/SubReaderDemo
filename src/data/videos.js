@@ -1,3 +1,5 @@
+const language = navigator.language.slice(0, 2) == "sv" ? "sv" : "da";
+
 export default {
   "ready-player-one": {
     title: "Ready Player One",
@@ -13,9 +15,16 @@ export default {
       {
         language: "da",
         label: "Dansk",
-        default: true,
+        default: language == "da",
         kind: "subtitles",
         src: "trailers/ready-player-one/da.vtt"
+      },
+      {
+        language: "sv",
+        label: "Svenska",
+        default: language == "sv",
+        kind: "subtitles",
+        src: "trailers/ready-player-one/sv.vtt"
       }
     ]
   },
@@ -33,9 +42,16 @@ export default {
       {
         language: "da",
         label: "Dansk",
-        default: true,
+        default: language == "da",
         kind: "subtitles",
         src: "trailers/avengers-infinity-war/da.vtt"
+      },
+      {
+        language: "sv",
+        label: "Svenska",
+        default: language == "sv",
+        kind: "subtitles",
+        src: "trailers/avengers-infinity-war/sv.vtt"
       }
     ]
   },
@@ -52,9 +68,16 @@ export default {
       {
         language: "da",
         label: "Dansk",
-        default: true,
+        default: language == "da",
         kind: "subtitles",
         src: "trailers/deadpool-2/da.vtt"
+      },
+      {
+        language: "sv",
+        label: "Svenska",
+        default: language == "sv",
+        kind: "subtitles",
+        src: "trailers/deadpool-2/sv.vtt"
       }
     ]
   },
@@ -72,9 +95,16 @@ export default {
       {
         language: "da",
         label: "Dansk",
-        default: true,
+        default: language == "da",
         kind: "subtitles",
         src: "trailers/star-wars-solo/da.vtt"
+      },
+      {
+        language: "sv",
+        label: "Svenska",
+        default: language == "sv",
+        kind: "subtitles",
+        src: "trailers/star-wars-solo/sv.vtt"
       }
     ]
   },
@@ -111,9 +141,16 @@ export default {
       {
         language: "da",
         label: "Dansk",
-        default: true,
+        default: language == "da",
         kind: "subtitles",
         src: "trailers/the-post/da.vtt"
+      },
+      {
+        language: "sv",
+        label: "Svenska",
+        default: language == "sv",
+        kind: "subtitles",
+        src: "trailers/the-post/sv.vtt"
       }
     ]
   }
