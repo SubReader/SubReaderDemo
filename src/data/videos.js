@@ -25,6 +25,12 @@ export default {
         default: language == "sv",
         kind: "subtitles",
         src: "trailers/ready-player-one/sv.vtt"
+      },
+      {
+        language: "nl",
+        label: "Nederlands",
+        kind: "subtitles",
+        src: "trailers/ready-player-one/nl.vtt"
       }
     ]
   },
