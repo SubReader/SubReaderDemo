@@ -24,8 +24,11 @@ class LiveSubtitle {
 		const cues = [];
 		for (let i = 0; i < this.track.cues.length; i++) {
 			const trackCue = this.track.cues[i];
+			const div = document.createElement("div");
+			div.innerHTML = trackCue.text;
+
 			const cue = {
-				text: trackCue.text,
+				text: div.innerText,
 				timeIn: trackCue.startTime * 1000,
 				timeOut: trackCue.endTime * 1000,
 			};
